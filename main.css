@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Barriecito|Do+Hyeon&display=swap');
-
 /* 
 	Fonts used:
 	font-family: 'Barriecito', cursive;
 	font-family: 'Do Hyeon', sans-serif;
 */
 
+/* General page styling */
 body {
 	background-color: black;
 	color: white;
@@ -13,6 +13,7 @@ body {
 	font-family: 'Do Hyeon', sans-serif;
 }
 
+/* Header font styling */
 h1, h2, h3 {
 	font-family: 'Barriecito', cursive;
 }
@@ -29,42 +30,74 @@ h3 {
 	font-size: 1.5em;
 }
 
+/* Paragraph styling */
 p {
-
+	line-height: 1.5em;
+	margin-bottom: 20px;
 }
 
+/* Album art style */
 .album-art {
-
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+	border: 2px solid red;
+	padding: 15px;
 }
 
+/* Clear floats */
 .clear {
 	clear: both;
 }
 
+/* Electronics and stage effects images*/
 .image-electronics, .image-stage-effects {
-	
+	width: 180px;
+	border: 2px solid red;
+	margin-right: 20px;
+	padding: 15px;
+	float: left;
 }
 
-.record-label {
-font
+/* Record label styling */
+.record-label {	
+	color: red;
 }
 
+/* Track list styling */
 .track-list {
-
+	list-style-type: square;
+	margin-left: 20px;
 }
 
+/* About photo style */
 #about-photo {
-
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	border: 2px solid red;
+	padding: 15px;
 }
 
+/* Copyright footer */
 #copyright {
-
+	color: red;
+	text-align: left;
 }
 
+/* Section borders and padding */
 #section-about, #section-discography, #section-equipment {
-
+	border: 2px solid red;
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
+/* Intro text box styling */
 #text-intro {
-	
+	background-color: #333333;
+	color: red;
+	padding: 15px;
+	text-align: left;
+	font-size: medium;
+	border: 2px solid red;
 }
